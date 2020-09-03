@@ -12,7 +12,7 @@ class ContactFormServiceProvider extends ServiceProvider
 
 
         $this->publishes([
-        __DIR__.'/../resources/views' => base_path('resources/views/mprince2k16'),
+        __DIR__.'/resources/views' => base_path('resources/views/mprince2k16'),
     ], 'views');
 
     }
