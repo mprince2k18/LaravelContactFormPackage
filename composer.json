@@ -1,0 +1,11 @@
+{
+    "name": "prince/contactform",
+    "description": "hello prince",
+    "authors": [
+        {
+            "name": "mprince2k20",
+            "email": "mprince2k16@gmail.com"
+        }
+    ],
+    "require": {}
+}
