@@ -9,6 +9,12 @@ class ContactFormServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'contactform');
+
+
+        $this->publishes([
+        __DIR__.'/../resources/views' => base_path('resources/views/mprince2k16'),
+    ], 'views');
+
     }
     
     public function register()
