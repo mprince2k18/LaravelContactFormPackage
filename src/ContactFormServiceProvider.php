@@ -19,7 +19,7 @@ class ContactFormServiceProvider extends ServiceProvider
     
     public function register()
     {
-        //
+        $this->app->register(MyVendor\contactform\ContactFormServiceProvider::class);
     }
 
 }
